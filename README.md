@@ -1,73 +1,75 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Enumerable
 
-> Description the project.
+This project is created to manipulate a list of elementes using and external modules in Ruby.
 
 
-## Built With
+## Build with
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+You will need to have Ruby installed.
 
+Clone this repo and enter the directory.
 
-To get a local copy up and running follow these simple example steps.
+```
+shell
+git@github.com:eapenzacharias/decode-morse.git
+cd decode-morse
+```
 
-### Prerequisites
+Run the Interactive Ruby Shell.
 
-### Setup
+```
+shell
+irb
+```
 
-### Install
+Load the file.
 
-### Usage
+```
+irb
+load './main.rb'
+```
 
-### Run tests
+To decode a message use the decode method.
 
-### Deployment
+```
+irb
+decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+```
 
-
+This will output 'A BOX FULL OF RUBIES'.
 
 ## Authors
 
-👤 **Author1**
+👤 **Amel Khiri**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Algerina](https://github.com/Algerina)
+- LinkedIn: [Amel Khiri](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
 
-👤 **Author2**
+👤 **Eapen Zacharias**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@eapenzacharias](https://github.com/eapenzacharias)
+- Twitter: [@eapenzac](https://twitter.com/eapenzac)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/eapenzac)
+
+👤 **Piero Lescano**
+
+- GitHub: [@piero-vic](https://github.com/piero-vic)
+- Twitter: [@v1ccenzo](https://twitter.com/v1ccenzo)
+- LinkedIn: [piero-lescano](https://linkedin.com/in/piero-lescano)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/algerina/enumerable/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
