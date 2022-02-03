@@ -17,8 +17,8 @@ Clone this repo and enter the directory.
 
 ```
 shell
-git@github.com:eapenzacharias/decode-morse.git
-cd decode-morse
+git@github.com:algerina/Enumerable.git
+cd Enumerable
 ```
 
 Run the Interactive Ruby Shell.
@@ -32,17 +32,34 @@ Load the file.
 
 ```
 irb
-load './main.rb'
+load './my_list.rb'
 ```
 
-To decode a message use the decode method.
+To test run the following commands in command props:
+
+```ruby
+# Create our list
+irb> list = MyList.new(1, 2, 3, 4)
+=> #<MyList: @list=[1, 2, 3, 4]>
+
+# Test #all?
+irb> list.all? {|e| e < 5}
+=> true
+irb> list.all? {|e| e > 5}
+=> false
+
+# Test #any?
+irb> list.any? {|e| e == 2}
+=> true
+irb> list.any? {|e| e == 5}
+=> false
+
+# Test #filter
+irb> list.filter {|e| e.even?}
+=> [2, 4]
 
 ```
-irb
-decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
-```
 
-This will output 'A BOX FULL OF RUBIES'.
 
 ## Authors
 
