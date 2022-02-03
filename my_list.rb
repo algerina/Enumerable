@@ -1,4 +1,7 @@
+require './my_enumerable'
+
 class MyList
+  include MyEnumerable
   def initialize(*arg)
     @list = arg
   end
@@ -8,4 +11,5 @@ class MyList
   end
 end
 
-list = MyList.new(1, 2, 3, 4)
+list = MyList.new(6, 4, -2, 4)
+puts(list.all? { |x| x > 3 })
