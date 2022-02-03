@@ -11,6 +11,5 @@ class MyList
   end
 end
 
-list = MyList.new(-9, -2, -
-9)
-puts(list.all? { |x| x > 3 })
+list = MyList.new(-9, -2, -9)
+puts(list.filter { |x| x == -2 })
