@@ -11,5 +11,6 @@ class MyList
   end
 end
 
-list = MyList.new(6, 4, -2, 4)
+list = MyList.new(-9, -2, -
+9)
 puts(list.all? { |x| x > 3 })

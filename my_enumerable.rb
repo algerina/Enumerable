@@ -5,4 +5,8 @@ module MyEnumerable
     end
     true
   end
+
+  def any?(&block)
+    @list.map(&block).include?(true)
+  end
 end
